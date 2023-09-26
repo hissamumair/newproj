@@ -29,7 +29,7 @@ const Home = () => {
           <StatusBar backgroundColor={COLORS.white} barStyle="dark-content" />{" "}
           {/* Correct the component name to StatusBar */}
           <Image
-            source={require("../database/images/background.png")}
+            source={require("../../assets/background.png")}
             style={{ position: "absolute", top: 0, left: -100 }}
           />{" "}
           {/* Correct the component name to Image */}
@@ -47,7 +47,7 @@ const Home = () => {
               }}
             >
               <Image
-                source={require('./assets/profile.jpg')}
+                source={require('../../assets/profile.jpg')}
                 style={{
                   width: '100%',
                   height: '100%',
